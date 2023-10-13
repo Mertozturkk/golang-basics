@@ -8,3 +8,11 @@ Test yazma surecinde dikkat edilmesi gerekenler temelde bir fonksiyon yazmakdan 
 - Test fonksiyonlari sadece bir parametre alir oda `t *testing.T` dir
 - `t *testing.T` nin kullanilabilmesi icin "testing" paketinin import edilmesi gerekir. `import "testing"`
 
+### TDD Disiplini
+
+- Test yazmadan kod yazma
+- Yazilan test ile birlikte kodun compile edilebilecek duruma gelmesi lazim
+- Testi calistir, basarisiz oldugunu gor ve hata mesajinin anlamli olup olmadigini kontrol et
+- Testi gececek kadar kod yaz
+- Refactor et
+
