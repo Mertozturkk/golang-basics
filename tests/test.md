@@ -16,3 +16,7 @@ Test yazma surecinde dikkat edilmesi gerekenler temelde bir fonksiyon yazmakdan 
 - Testi gececek kadar kod yaz
 - Refactor et
 
+
+### Golang Bilgileri
+
+- Bir degisken tanimlanirken kucuk harfle basliyorsa private acces modifier a sahiptir. Tanimlandigi paket disindan erisilemez.
