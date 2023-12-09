@@ -22,4 +22,8 @@ Test yazma surecinde dikkat edilmesi gerekenler temelde bir fonksiyon yazmakdan 
 - Bir degisken tanimlanirken kucuk harfle basliyorsa private acces modifier a sahiptir. Tanimlandigi paket disindan erisilemez.
 - Go metotlara veya fonksiyonlara ilettiğiniz değerlerin bir kopyasını(pass by value) gönderir. Bu nedenle degiskenin gercek degerinin degismesi gerektigi durumlarda pointer kullanilmali
 - Pointerlar nil olabilirler. Bir fonksiyon bir seye point eden bir deger dondugu zaman nil olup olmadigini kontrol etmek gerekir. Aksi halde runtime panic olur.
+
+### Goroutines
+
+- Go'ya yeni bir goroutine başlatmasını söylemek için fonksiyonun önüne go keywordu koyuyoruz: ***go doSomething()***
 - 
